@@ -1,0 +1,96 @@
+.button {
+    display: inline-block;
+    padding: 12px 30px;
+    justify-content: center;
+    align-items: cneter;
+    margin: 8px 4px;
+    border-radius: 10px;
+
+    text-align: center;
+    text-decoration: none;
+
+    font-family: "Syne";
+    font-style: normal;
+    line-height: normal;
+
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: 0.1s;
+
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+    opacity: 0.65;
+    transform: scale(1.04);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button:active {
+    opacity: 1;
+    transform: scale(0.98);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.button.special {
+    background: var(--special-fill);
+
+    font-weight: 500;
+    
+    color: var(--normal-text-inv);
+    border: 2px solid var(--special-outline);
+}
+
+.button.special:hover {
+    background: var(--special-fill-hover);
+
+    border: 2px solid var(--special-outline-hover);
+}
+
+.button.special:active {
+    background: var(--special-fill-pressed);
+
+    border: 2px solid var(--special-outline-pressed);
+}
+
+.button.primary {
+    background: var(--primary-fill);
+    
+    color: var(--normal-text-inv);
+    border: 2px solid var(--primary-outline);
+}
+
+.button.primary:hover {
+    background: var(--primary-fill-hover);
+
+    border: 2px solid var(--primary-outline-hover);
+}
+
+.button.primary:active {
+    background: var(--primary-fill-pressed);
+
+    border: 2px solid var(--primary-outline-pressed);
+}
+
+.button.secondary {
+    background: var(--secondary-fill);
+    
+    color: var(--normal-text);
+    border: 2px solid var(--secondary-outline);
+}
+
+.button.secondary:hover {
+    background: var(--secondary-fill-hover);
+
+    color: var(--normal-text-hover);
+    border: 2px solid var(--secondary-outline-hover);
+}
+
+.button.secondary:active {
+    background: var(--secondary-fill-pressed);
+
+    color: var(--normal-text-pressed);
+    border: 2px solid var(--secondary-outline-pressed);
+}
