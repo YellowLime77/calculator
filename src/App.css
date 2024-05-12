@@ -46,7 +46,7 @@
 
 .background {
   /* image from local assets, set to fill */
-  background-image: url(./assets/background.jpg);  
+  background-image: url("../public/background.jpg");  
   background-size: cover;
   background-position: center;
   z-index: 0;
