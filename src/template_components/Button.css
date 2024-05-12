@@ -1,6 +1,6 @@
 .button {
     display: inline-block;
-    padding: 12px 30px;
+    padding: 10px 24px;
     justify-content: center;
     align-items: cneter;
     margin: 8px 4px;
@@ -13,7 +13,7 @@
     font-style: normal;
     line-height: normal;
 
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
 
     transition: 0.1s;

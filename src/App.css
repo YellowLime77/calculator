@@ -45,5 +45,9 @@
 }
 
 .background {
-  background-color: var(--primary-200);
+  /* image from local assets, set to fill */
+  background-image: url(./assets/background.jpg);  
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
 }
